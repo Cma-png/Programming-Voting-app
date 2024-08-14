@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+body {
+  margin: 0 auto;
+}
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+  color: #3cb371;
+}
+.vote-card {
+  margin-top: 50px;
+  background-color: aquamarine;
+}
+.card-item {
+  border: 0 px;
+  width: 50%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: pink;
+}
+.card-item-cursor {
+  border: 0px;
+  width: 50%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: pink;
+  cursor: pointer;
+}
+.btn {
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  border: none;
+  outline: none;
+  background-color: white
+}
+.btn-hover:hover {
+  color: #784f9e;
+}
+.fab {
+  margin-left: 5px;
+  font-size: 1.2em;
+}
+.img {
+  width: 56px;
+  height: 56px;
+}
